@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    background-color:#c2c451;
+    /* background-image: url(lime-478.png); */
+    background-repeat: no-repeat;
+}
+
+body{
+    margin: 6px;
+    margin-top: 10px;
+
+}
+
+.dpcon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dp{
+    width: 150px;
+    height:150px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    background-image: url(rrr.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.editdp{
+    position: relative;
+    left: -5px;
+    background:none;
+}
+
+
+.proinfocon{
+text-align: center;
+font-size: 20px;
+margin-top: 15px;
+margin-bottom: 15px;
+padding: 3px;
+width: 100%;
+color: #212A4D;
+border:3px double #ffffff;
+border-left: hidden;
+border-right: hidden;
+}
+
+.btncon{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+
+.joincontainer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.joinclzbtn{
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+    background-color:#708090;
+    border:hidden;
+}
+
+
+.pp_not_btn, .tt_vb_btn{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.paperbtn, .notebtn, .ttbtn, .vdbtn{
+    width: 35%;
+    height: 75%;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color:#708090;
+    border:hidden;
+}
+
+.paycon{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.paybtn{
+    width: 80%;
+    height: 75%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 0;
+    background-color:#708090;
+    border:hidden;
+}
+
+:hover.paperbtn, :hover.notebtn, :hover.ttbtn, :hover.vdbtn, :hover.joinclzbtn, :hover.paybtn{
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.41) inset;
+    -webkit-box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.41) inset;
+    -moz-box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.41) inset;
+}
+
+
+/* #########################  Tab Mode  ############### */
+
+@media (min-width:620px ){
+
+
+    .dp{
+        width: 150px;
+        height:150px;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+    }
+    
+    
+    .proinfocon{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border:5px solid #ffffff;
+    border-left: hidden;
+    border-right: hidden;
+    }
+
+
+    .joinclzbtn{
+        font-size: 50px;
+
+    }
+
+    .paperbtn, .notebtn, .ttbtn, .vdbtn{
+        font-size: 40px;
+
+    }
+
+
+
+    .paybtn{
+        font-size: 40px;
+    }
+    
+}
+
+
+
+/* ###################   Desktop Mode   ############################# */
+
+
+@media (min-width:760px){
+
+
+    html{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+    }
+
+
+    body{
+        display: flex;
+        padding-right: 10px;
+    }
+
+    .dp_card{
+        text-align: center;
+        margin: 20px;
+        margin-right:50px;
+        position: relative;
+        width: 50%;
+        border: 6px solid #708090;
+        border-radius: 30px;
+        padding:100px;
+        opacity: 0.8;
+     } 
+
+
+    .btncon{
+        text-align: center;
+        width: 100%;
+    }
+
+
+
+    .paperbtn, .notebtn, .ttbtn, .vdbtn, .joinclzbtn, .paybtn{
+        width: 50%;
+        margin: 10px;
+        height: 10vh;
+        font-size: 40px;
+        background-color: transparent;
+    }
+
+
+    :hover.paperbtn, :hover.notebtn, :hover.ttbtn, :hover.vdbtn, :hover.joinclzbtn, :hover.paybtn{
+        box-shadow: 5px 3px 2px  #212A4D;
+        border: 3px solid #ffffff;
+        font-size: 42px;
+    }
+
+
+     .joincontainer,.pp_not_btn, .tt_vb_btn,.paycon{
+        width: 50%;
+        display: inline;
+
+    }
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}

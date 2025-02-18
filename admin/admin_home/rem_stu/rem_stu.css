@@ -1,0 +1,43 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+}
+
+
+html{
+    background-color:#588cb9 ;
+}
+
+.d1{
+    text-align: center;
+    color: #000;
+    font-size: 150%;
+}
+
+h2{
+    margin: 6%;
+    font-size: 200%;
+    padding: 20px;
+    border: solid 3px;
+}
+
+.b1{
+    height: 30px;
+    border-radius: 10px;
+}
+
+form{
+    height: 50%;
+    width: auto;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 500px;
+    margin: 40px;
+    width: 60px;
+    height: 45px;
+}

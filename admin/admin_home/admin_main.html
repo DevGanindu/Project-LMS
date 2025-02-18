@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="admin_main.css">
+    <title>Admin Page</title>
+</head>
+<body class="body">
+    <h2>Admin Home</h2>
+    <!-- Class -->
+    <div class="con">
+        <fieldset class="field">
+            <legend class="legend">Create Class Room</legend>
+                <button class="btn cre"><a href="admin_class/create_class.php">Create Class</a></button>
+                <button class="btn edit">Edit Class</button>
+        </fieldset>
+    </div>
+
+    <!-- Upload -->
+    <div class="con">
+        <fieldset class="field">
+            <legend class="legend">Upload</legend>
+                <button class="btn"><a href="admin_papers/upload_paper.php">Papers</a></button>
+                <button class="btn"><a href="admin_notes/upload_note.php">Notes</a></button>
+                <button class="btn"><a href=admin_videos/upload_video.php>Videos</a></button>
+                
+        </fieldset>
+    </div>
+
+    <!-- Manage Class -->
+    <div class="con">
+        <fieldset class="field">
+            <legend class="legend">Manage Class Room</legend>
+                <button class="btn shw"><a href=admin_all_students/all_students.php >All Students</a></button>
+                <button class="btn add"><a href="../../reg/reg_form.php">Add New Student</a></button>
+                <button class="btn rem"><a href=rem_stu/rem_stu.php>Remove Student</a></button>
+                <button class="btn tt"><a href=admin_timetabel/ttabel.php> Class Info</a></button>
+        </fieldset>
+    </div>
+
+
+</body>
+</html>
