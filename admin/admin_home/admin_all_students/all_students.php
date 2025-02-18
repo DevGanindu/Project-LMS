@@ -40,11 +40,6 @@ if(!$conn){
  
  while($data=mysqli_fetch_array($result)){
  
- $ID= $data['stid'];
- $NAME=$data['fname'] ."  ". $data['lname'];
- $EXYEAR=$data['exyear']."  "."A/L";
- $EDUC=$data['educenter'];
- $WAHTSNO=$data['whtsno'];
 
  ?>
  
